@@ -1,0 +1,21 @@
+body { 
+background: pink;
+color: white;
+}
+
+.videospequenos img {
+height: 200px;
+opacity: 0.5;
+}
+
+.videospequenos {
+overflow-x: auto;
+display: flex;
+gap: 10px;
+
+}
+
+.videospequenos img:hover {
+opacity: 1.0;
+border: 5px solid purple
+}
